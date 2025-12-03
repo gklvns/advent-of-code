@@ -1,0 +1,21 @@
+{
+    "name": "gklvns/advent-of-code",
+    "description": "My Advent of Code submissions.",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Georgijs Kļaviņš",
+            "email": "georgijs.klavins@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdventOfCode\\": "src/",
+            "AdventOfCode\\Year2025\\": "2025/"
+        }
+    }
+}
